@@ -7,13 +7,13 @@
   },
   "dependencies": {
     "autoprefixer": "^2.x.x",
-    "clean-css": "^2.x.x",
     "minimist": "^0.x.x",
     "mkdirp": "^0.x.x",
     "rework": "^1.x.x",
     "rework-npm": "^1.x.x",
     "rework-shade": "^1.x.x",
-    "rework-vars": "^3.x.x"
+    "rework-vars": "^3.x.x",
+    "text-table": "^x.x.x"
   },
   "devDependencies": {
     "faucet": "^0.x.x",
@@ -39,5 +39,5 @@
   "scripts": {
     "test": "tape tests/*.js | faucet"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
