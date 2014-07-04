@@ -1,6 +1,6 @@
 # cssmod
 
-Casading Style Sheets, modified...
+Casading Style Sheets, modernized...
 
 ## with:
 - modules, `@import` like commonjs `require()`
