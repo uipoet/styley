@@ -1,0 +1,43 @@
+{
+  "author": {
+    "name": "Jamie Hoover"
+  },
+  "bin": {
+    "cssmod": "lib/command.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^2.x.x",
+    "clean-css": "^2.x.x",
+    "minimist": "^0.x.x",
+    "mkdirp": "^0.x.x",
+    "rework": "^1.x.x",
+    "rework-npm": "^1.x.x",
+    "rework-shade": "^1.x.x",
+    "rework-vars": "^3.x.x"
+  },
+  "devDependencies": {
+    "faucet": "^0.x.x",
+    "tape": "^2.x.x"
+  },
+  "engines": {
+    "node": "^0.10.x"
+  },
+  "keywords": [
+    "css",
+    "import",
+    "prefix",
+    "require",
+    "variable"
+  ],
+  "license": "Apache-2.0",
+  "main": "lib/cssmod",
+  "name": "cssmod",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/voicekick/cssmod"
+  },
+  "scripts": {
+    "test": "tape tests/*.js | faucet"
+  },
+  "version": "0.1.0"
+}

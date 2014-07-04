@@ -1,0 +1,8 @@
+*.gz
+*.log
+*.out
+
+.DS_Store
+build
+logs
+node_modules
