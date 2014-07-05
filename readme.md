@@ -17,7 +17,7 @@ body {
 
 @import './module/index';
 ```
-## and `./variables.css`...
+## and `./variable.css`...
 ```CSS
 :root {
 	--background-color: black;
