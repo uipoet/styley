@@ -2,22 +2,61 @@
 
 Casading Style Sheets, modernized...
 
-## with:
-- modules, `@import` like commonjs `require()`
-- variables, like future CSS specification
-- color adjustment
+## Turn `./index.css`...
+```CSS
+@import './variable';
 
-## without:
-- vendor prefixes
+:root {
+	--color: white;
+}
+
+body {
+	background-color: var(--background-color);
+	color: var(--color);
+}
+
+@import './module/index';
+```
+## and `./variables.css`...
+```CSS
+:root {
+	--background-color: black;
+}
+```
+
+## and `./module/index.css`...
+```CSS
+.module {
+	background-color: var(--background-color);
+	color: var(--color);
+	display: flex;
+}
+```
+
+## ...into `./build/bundle.css`:
+```CSS
+body {
+  background-color: black;
+  color: white;
+}
+
+.module {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+```
 
 ## command line interface
 
 ```bash
 npm install cssmod -g
 
-cssmod example build
+cssmod examples
 
-# modifies ./example/index.css (and any imported modules) into ./build/bundle.css
 ```
 
 ## application program interface
@@ -31,9 +70,10 @@ var
 	cssmod = require('cssmod');
 
 cssmod({
-	input: 'example',
-	output: 'build'
-});
+	input: 'examples'
+}, function (error, css) {
+	console.log(css);
+};
 ```
 
 Resolving input/output file paths mimicks Node.js
