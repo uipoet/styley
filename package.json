@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "autoprefixer": "^2.x.x",
-    "minimist": "^0.x.x",
+    "minimist": "^1.x.x",
     "mkdirp": "^0.x.x",
     "rework": "^1.x.x",
     "rework-npm": "^1.x.x",
