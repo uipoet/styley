@@ -13,7 +13,7 @@
     "rework-npm": "^1.x.x",
     "rework-shade": "^1.x.x",
     "rework-vars": "^3.x.x",
-    "text-table": "^x.x.x"
+    "text-table": "^0.x.x"
   },
   "devDependencies": {
     "faucet": "^0.x.x",
@@ -39,5 +39,5 @@
   "scripts": {
     "test": "tape tests/*.js | faucet"
   },
-  "version": "0.2.1"
+  "version": "0.3.0"
 }
