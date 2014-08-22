@@ -6,7 +6,7 @@
     "cssmod": "lib/command.js"
   },
   "dependencies": {
-    "autoprefixer": "^2.x.x",
+    "autoprefixer-core": "^3.x.x",
     "minimist": "^1.x.x",
     "mkdirp": "^0.x.x",
     "rework": "^1.x.x",
