@@ -1,6 +1,6 @@
-# cssmod
+# styley
 
-Casading Style Sheets, modernized...
+Freaky Styley Sheets
 
 ## Turn `./index.css`...
 ```CSS
@@ -53,23 +53,23 @@ body {
 ## command line interface
 
 ```bash
-npm install cssmod -g
+npm install styley -g
 
-cssmod examples
+styley examples
 
 ```
 
 ## application program interface
 
 ```bash
-npm install cssmod --save-dev
+npm install styley --save-dev
 ```
 
 ```JavaScript
 var
-	cssmod = require('cssmod');
+	styley = require('styley');
 
-cssmod({
+styley({
 	input: 'examples'
 }, function (error, css) {
 	console.log(css);

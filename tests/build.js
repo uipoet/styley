@@ -1,5 +1,5 @@
 var
-  cssmod = require('../lib/cssmod'),
+  styley = require('../lib/styley'),
   fs = require('fs'),
   path = require('path'),
   test = require('tape');
@@ -7,7 +7,7 @@ var
 test('build', function (t) {
   t.plan(1);
 
-  cssmod({
+  styley({
     cwd: path.resolve(__dirname, '..'),
     input: 'examples',
     output: 'build',
@@ -30,7 +30,7 @@ test('build', function (t) {
 test('cleanup', function (t) {
   t.plan(1);
 
-  cssmod({
+  styley({
     cwd: path.resolve(__dirname, '..'),
     input: 'examples',
     output: 'build',
