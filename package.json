@@ -6,7 +6,7 @@
     "cssmod": "lib/command.js"
   },
   "dependencies": {
-    "autoprefixer-core": "^3.x.x",
+    "autoprefixer-core": "^5.x.x",
     "minimist": "^1.x.x",
     "mkdirp": "^0.x.x",
     "rework": "^1.x.x",
@@ -16,8 +16,8 @@
     "text-table": "^0.x.x"
   },
   "devDependencies": {
-    "faucet": "^0.x.x",
-    "tape": "^3.x.x"
+    "faucet": "latest",
+    "tape": "latest"
   },
   "engines": {
     "node": "^0.10.x"
@@ -39,5 +39,5 @@
   "scripts": {
     "test": "tape tests/*.js | faucet"
   },
-  "version": "0.3.0"
+  "version": "1.0.0"
 }
