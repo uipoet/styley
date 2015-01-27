@@ -3,7 +3,7 @@
     "name": "Jamie Hoover"
   },
   "bin": {
-    "cssmod": "lib/command.js"
+    "styley": "lib/command.js"
   },
   "dependencies": {
     "autoprefixer-core": "^5.x.x",
@@ -30,11 +30,11 @@
     "variable"
   ],
   "license": "Apache-2.0",
-  "main": "lib/cssmod",
-  "name": "cssmod",
+  "main": "lib/styley",
+  "name": "styley",
   "repository": {
     "type": "git",
-    "url": "git://github.com/voicekick/cssmod"
+    "url": "git://github.com/voicekick/styley"
   },
   "scripts": {
     "test": "tape tests/*.js | faucet"
