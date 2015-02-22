@@ -20,7 +20,7 @@
     "tape": "latest"
   },
   "engines": {
-    "node": "^0.10.x"
+    "node": "^0.12.x"
   },
   "keywords": [
     "css",
@@ -34,10 +34,10 @@
   "name": "styley",
   "repository": {
     "type": "git",
-    "url": "git://github.com/voicekick/styley"
+    "url": "git://github.com/uipoet/styley"
   },
   "scripts": {
     "test": "tape tests/*.js | faucet"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
